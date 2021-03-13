@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIGN UP</title>
+    <title>GALLEYR</title>
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
@@ -16,10 +16,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html" style="font-family: Georgia, 'Times New Roman', Times, serif;">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.php" style="font-family: Georgia, 'Times New Roman', Times, serif;">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="aboutus.html" style="font-family: Georgia, 'Times New Roman', Times, serif;">About Us</a>
+            <a class="nav-link" href="aboutus.php" style="font-family: Georgia, 'Times New Roman', Times, serif;">About Us</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-family: Georgia, 'Times New Roman', Times, serif;">
@@ -35,22 +35,22 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="department.html" style="font-family: Georgia, 'Times New Roman', Times, serif;">Academics</a>
+            <a class="nav-link" href="department.php" style="font-family: Georgia, 'Times New Roman', Times, serif;">Academics</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="gallery.html" tabindex="-1"  style="font-family: Georgia, 'Times New Roman', Times, serif;">Gallery</a>
+            <a class="nav-link active" href="gallery.php" tabindex="-1"  style="font-family: Georgia, 'Times New Roman', Times, serif;">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="contact.html" tabindex="-1"  style="font-family: Georgia, 'Times New Roman', Times, serif;">Contact Us</a>
+            <a class="nav-link active" href="contact.php" tabindex="-1"  style="font-family: Georgia, 'Times New Roman', Times, serif;">Contact Us</a>
           </li>
         </ul>
         <form class="d-flex">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="signup.html">SIGN UP</a>
+                    <a class="nav-link active" href="signup.php">SIGN UP</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="signin.html">SIGN IN</a>
+                    <a class="nav-link active" href="signin.php">SIGN IN</a>
                 </li>
             </ul>
         </form>
@@ -59,45 +59,34 @@
     </div>
   </nav>
 <body>
-    <center><h1 style="color:rgba(3, 3, 73, 0.911)"><u>SIGN UP</u></h1></center>
+    <center><h1 style="color:rgba(4, 4, 104, 0.911)"><u>GALLERY</u></h1></center>
     <div class="container">
         <div class="row">
-            <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-12">
-                <TABLE class="table table-borderless">
+            <div class="col col-12 col-sm-12 col-md-9 col-lg-6 col-xl-6col-xxl-6">
+                <table class="table table-borderless">
                     <tr>
-                        <td>Name</td>
-                        <td><input type="text" class="form-control"></td>
+                        <td><img src="photos\g1.jpg" height="200px" width="400px"></td>
+                        <td><img src="photos\g2.jpg" height="200px" width="400px"></td>
+                        <td><img src="photos\g8.jpg" height="200px" width="400px"></td>
                     </tr>
                     <tr>
-                        <td>Course</td>
-                        <td><input type="text" class="form-control"></td>
+                        <td><img src="photos\g3.jpg" height="200px" width="400px"></td>
+                        <td><img src="photos\g4.jpg" height="200px" width="400px"></td>
+                        <td><img src="photos\g7.jpg" height="200px" width="400px"></td>
                     </tr>
                     <tr>
-                        <td>Date Of Brith</td>
-                        <td><input type="text" class="form-control"></td>
+                        <td><img src="photos\g5.jpg" height="200px" width="400px"></td>
+                        <td><img src="photos\g6.jpg" height="200px" width="400px"></td>
+                        <td><img src="photos\g3.jpg" height="200px" width="400px"></td>
                     </tr>
                     <tr>
-                        <td>Phone</td>
-                        <td><input type="text" class="form-control"></td>
+                        <td><img src="photos\g7.jpg" height="200px" width="400px"></td>
+                        <td><img src="photos\g8.jpg" height="200px" width="400px"></td>
+                        <td><img src="photos\g5.jpg" height="200px" width="400px"></td>
                     </tr>
-                    <tr>
-                        <td>Email</td>
-                        <td><input type="text" class="form-control"></td>
-                    </tr>
-                    <tr>
-                        <td>Password</td>
-                        <td><input type="password" class="form-control"></td>
-                    </tr>
-                    <tr>
-                        <td>Confirm password</td>
-                        <td><input type="password" class="form-control"></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><button class="btn btn-outline-primary">Register</button></td>
-                    </tr>
-            
-                </TABLE>
+                   
+                    
+                </table>
             </div>
         </div>
         <div class="row">
@@ -106,10 +95,10 @@
                 <br>
                 <h6 style="font-family:verdana;color:rgb(33, 34, 33);">ACADEMICS</h6>
                 <table class="table table-borderless">
-                    <tr><td><a class="navbar-brand" href="">Department of Computer Science</a></td></tr>  
-                    <tr><td><a class="navbar-brand" href="">Department Of Social Work</a></td></tr>
-                    <tr><td><a class="navbar-brand" href="">Department Of Languages</a></td></tr>
-                    <tr><td><a class="navbar-brand" href="">Department Of Personal Management</a></td></tr>
+                    <tr><td><a class="navbar-brand" href="computerscience.php">Department of Computer Science</a></td></tr>  
+                    <tr><td><a class="navbar-brand" href="socialwork.php">Department Of Social Work</a></td></tr>
+                    <tr><td><a class="navbar-brand" href="commerce.php">Department Of Commerces</a></td></tr>
+                    <tr><td><a class="navbar-brand" href="psychology.php">Department Of Psychology</a></td></tr>
                 </table>
             </div>
             <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
@@ -117,10 +106,10 @@
                 <br>
                 <h6 style="font-family:verdana;color:rgb(28, 29, 28);">USEFUL LINKS</h6>
                 <table class="table table-borderless">
-                    <tr><td><a class="navbar-brand" href="">Home</a></td></tr>  
-                    <tr><td><a class="navbar-brand" href="">Gallery</a></td></tr>
-                    <tr><td><a class="navbar-brand" href="">Academics</a></td></tr>
-                    <tr><td><a class="navbar-brand" href="">About Us</a></td></tr>
+                    <tr><td><a class="navbar-brand" href="index.php">Home</a></td></tr>  
+                    <tr><td><a class="navbar-brand" href="gallery.php">Gallery</a></td></tr>
+                    <tr><td><a class="navbar-brand" href="department.php">Academics</a></td></tr>
+                    <tr><td><a class="navbar-brand" href="aboutus.php">About Us</a></td></tr>
                 </table>
             </div>
             <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
@@ -136,7 +125,7 @@
                 </table>
             </div>
         </div>
-    </div> 
+    </div>
     
 </body>
 </html>
